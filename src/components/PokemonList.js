@@ -27,7 +27,7 @@ const PokemonList = () => {
   return (
     <div>
       <h2>Pokemon List</h2>
-      <div>
+      <div className="pokemons">
         {pokemons.map((p) => (
           <PokemonListItem key={p.name} pokemon={p} />
         ))}

@@ -17,3 +17,39 @@ code {
   margin: 0 auto;
   padding: 1rem;
 }
+
+.pokemons {
+  display: flex;
+  flex-direction: column;
+}
+
+.pokemons__pokemon {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.pokemon__heading {
+  display: flex;
+  align-items: center;
+}
+
+.pokemon__title {
+  display: flex;
+  flex-grow: 1;
+
+  justify-content: space-between; 
+}
+
+.pokemon__details {
+  display: flex;
+}
+
+.pokemon__details > div {
+  margin-right: 0.5rem;
+}
+
+.pokemon__sprite {
+  margin-right: 1rem;
+}
